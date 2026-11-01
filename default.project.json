@@ -1,0 +1,42 @@
+{
+  "name": "PanicShift",
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "$className": "ReplicatedStorage",
+      "PanicShiftShared": {
+        "$path": "src/ReplicatedStorage/Shared"
+      },
+      "PanicShiftRemotes": {
+        "$path": "src/ReplicatedStorage/Remotes"
+      }
+    },
+    "ServerScriptService": {
+      "$className": "ServerScriptService",
+      "PanicShiftServer": {
+        "$path": "src/ServerScriptService"
+      }
+    },
+    "ServerStorage": {
+      "$className": "ServerStorage",
+      "PanicShiftStorage": {
+        "$path": "src/ServerStorage"
+      }
+    },
+    "StarterPlayer": {
+      "$className": "StarterPlayer",
+      "StarterPlayerScripts": {
+        "$className": "StarterPlayerScripts",
+        "PanicShiftClient": {
+          "$path": "src/StarterPlayer/StarterPlayerScripts"
+        }
+      }
+    },
+    "StarterGui": {
+      "$className": "StarterGui",
+      "PanicShiftUI": {
+        "$path": "src/StarterGui/PanicShiftUI"
+      }
+    }
+  }
+}

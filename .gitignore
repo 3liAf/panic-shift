@@ -1,0 +1,18 @@
+# Roblox lock files
+*.rbxl.lock
+*.rbxlx.lock
+
+# OS & Editor
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# Node / Scratch / Logs
+node_modules/
+*.log
+.system_generated/
+build_test.rbxlx
+PanicShift.rbxlx
